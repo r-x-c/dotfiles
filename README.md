@@ -1,16 +1,16 @@
 # dotfiles
 
-Personal developer settings, symlinked from `$HOME`.
+Personal developer settings. One folder per tool; each folder has the config file(s) plus a `cheatsheet.md` with the keybindings I actually use.
 
 ## Install
 
 ```sh
-git clone <repo-url> ~/dotfiles
-ln -s ~/dotfiles/tmux.conf ~/.tmux.conf
+git clone git@github.com:r-x-c/dotfiles.git ~/dotfiles
+ln -s ~/dotfiles/tmux/tmux.conf ~/.tmux.conf
 ```
 
-Re-source after changes: `tmux source-file ~/.tmux.conf`.
+## Layout
 
-## Contents
+- `tmux/` — pane auto-rebalance, mouse scroll, 50k scrollback. [cheatsheet](tmux/cheatsheet.md)
 
-- `tmux.conf` — auto-rebalance panes, mouse scroll into pane history, 50k-line scrollback.
+More to come (keybindings, shell, etc.).
