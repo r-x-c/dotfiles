@@ -1,6 +1,6 @@
 # tmux cheatsheet
 
-Prefix: `Ctrl-b`
+Prefix: `Ctrl-Space` (rebound from default `Ctrl-b`)
 
 ## Panes
 
